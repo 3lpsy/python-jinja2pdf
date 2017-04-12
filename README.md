@@ -20,7 +20,7 @@ Running the command.
 $ python run.py --template example
 ```
 
-The template option is always required. It must be the name of a file in the templates folder. For example, 'example.html' refers to templates/example.html
+The template option is always required. It must be the name of a file in the templates folder. For example, 'example' (no html extension) refers to templates/example.html
 
 
 ### Templates with Variables Passed In
