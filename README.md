@@ -31,11 +31,11 @@ You can pass in variables from the command line. These variables will be availab
 python run.py --title "Argument Example" --content "hello darkness my old friend" --template example2
 ```
 
-Title and content will be rendered within the html template where {{title}} and {{content}} are used. Your variables can have any name (except 'template' and 'context' as those are reserved) as long as they are in the --key value format. Every key must have a value. 
+Title and content will be rendered within the html template where {{title}} and {{content}} are used. Your variables can have any name (except 'template' and 'context' as those are reserved) as long as they are in the --key value format. Every key must have a value.
 
-### Templates with Variables in a python file
+### Templates with Variables in a python module
 
-You can also define more complicated variables in a python file in the root directory.
+You can also define more complicated variables in a python module (file) in the root directory.
 
 For example, you could have a file 'example3_context.py' which contains:
 
