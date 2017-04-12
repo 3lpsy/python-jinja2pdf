@@ -63,7 +63,7 @@ The command first render's the html file from the jinja2 template. This file is 
 
 ## Images and class
 
-You can link to external images and style files (http) from your template. The tool will pull the resources and save them under assets with a unique name. Currently, only simple css and images are supported.
+You can link to external images and style files (http) from your template. The tool will pull the resources and save them under assets with a unique name. Currently, only simple css and images are supported (I have experienced trouble with bootstrap). When converting from html to pdf, the tool uses xhtml2pdf to parse it. If you look at the 'page.py' file, you will see a 'link_callback' hook. This method performs as http request and stores the file in the assets directory.
 
 Relative images are not supported. However, you could use full file paths in your template.
 
