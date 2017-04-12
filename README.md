@@ -52,10 +52,7 @@ The file must contain a main function.
 You would then pass in the file module name (without the '.py' extension) as the context option:
 
 ```
-#!/bin/bash
-
-exec python run.py --context 'example3_context' example
-
+$ python run.py --context 'example3_context' example
 ```
 
 These variables will be available just as in example2.
